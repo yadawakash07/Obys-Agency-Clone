@@ -1,0 +1,443 @@
+
+@media (max-width:992px ) {
+    #loader h1,#loader h2{
+        font-size: 7.25vw;
+        line-height: 8vw;
+        font-weight: 600;
+    }
+    .lastDis h4{
+        font-size: 2.5vw;
+    } 
+    #Flag{
+        display: none;
+    }
+    #cursor{
+        display: none;
+    }
+    .Lproject{
+        display: none;
+    }
+    .page3 .pElems{
+        display: none;
+    }
+    .Selems{
+        display: block;
+        width: 100%;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+    }
+    .Selems .projectContent{
+        width: 100%;
+        min-height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .projectContent .projectElemt{
+        width: 48%;
+        height: 80vh;
+        margin-bottom: 2vw;
+    }
+    .elemtImg{
+        width: 100%;
+        height: 80%;
+        position: relative;
+    }
+    .elemtImg img{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }
+    .elemtH{
+            position: relative;
+            height: 5vw;
+            overflow: hidden;
+            margin-bottom: 2vw;
+        }
+        .elemtH h2{
+            text-transform: uppercase;
+            font-size: 2.75vw;
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+            font-weight: 600;
+            -webkit-transform: translateY(0%);
+                -ms-transform: translateY(0%);
+                    transform: translateY(0%);
+            padding-block: 1vw;
+        }
+        .projectElemt:hover >.elemtH>  h2{
+            -webkit-transform: translateY(-100%);
+                -ms-transform: translateY(-100%);
+                    transform: translateY(-100%);
+        }
+        .elemtBottom{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            padding-block: 2vw;
+        }
+        .elemtBottom h3,.elemtBottom h4{
+            font-weight: 100;
+            font-size: 1.2vw;
+        }
+        .page2contentbox {
+            width: 100%;
+            height: 70%;
+            position: relative;
+        }
+        .pageFootercenter> h3 {
+            font-size: 2.25vw;
+            font-weight: 200;
+        }
+        .Selems .SelemprojectCircle{
+            margin-left: 40%;
+            width: 20vw;
+            height: 20vw;
+            border-radius: 50%;
+            background-color: #ffa63d;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            padding: 2vw;
+        }
+        .Selems .SelemprojectCircle p{
+            font-size: 2vw;
+            text-align: center;
+        }
+}
+
+@media (max-width:767px ) {
+    #cursor{
+        display: none;
+    }
+    #loader{
+        padding-inline: 3.5vw;
+    }
+    .top .top1 h5{
+        width: 7.5vw;
+    }
+    .top .top1 h5,.top .top1 h6{
+        font-size: 4.5vw;
+    }
+    #loader h1,#loader h2{
+        font-size: 7.75vw;
+        line-height: 8.75vw;
+        font-weight: 600;
+    }
+    .lastDis{
+        margin-top: 5vw;
+    }
+    .lastDis h4{
+        font-size: 2.75vw;
+    }
+
+    .page1{
+        width: 100%;
+        height: 90vh;
+        padding-inline: 4vw;
+    }
+    .page1ContentTop {
+        visibility: hidden;
+    }
+    nav{
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding-inline: 5vw;
+        padding-top: 5vw;
+        z-index: 99;
+        background: transparent;
+        -webkit-backdrop-filter: blur(2px);
+                backdrop-filter: blur(2px);
+    }
+    .page1Container {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 7.5vw;
+    }
+    .page1ContentBottom .heading h1 {
+        font-size: 11vw;
+        line-height: 11.5vw;
+    }
+    .page1BottomContent::before {
+        font-size: 5vw;
+        top: -20%;
+        left: 0;
+    }
+
+
+    .page2 {
+        width: 100%;
+        height: 80vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .page2Container {
+        width: 100%;
+        height: 90%;
+        margin-left: 0%;
+    }
+    .page2cursor{
+        display: none;
+    }
+    .page2Scursor{
+        position: absolute;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+        background: #ffa63d;
+        z-index: 9999;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .page2Scursor i{
+        font-size: 5vw;
+    }
+    .page2Scursor i:nth-child(2){
+        display: none;
+    }
+
+
+    /* page3 smallDevicecss section */
+    .projectContent .projectElemt{
+        width: 100%;
+        height: 100vh;
+    }
+    .elemtH{
+        height: 6vh;
+    }
+    .elemtH h2{
+        font-size: 6vw;
+    }
+    .elemtImg{
+        width: 100%;
+        height: 85%;
+        position: relative;
+    }
+    .elemtBottom h3,.elemtBottom h4{
+        font-weight: 100;
+        font-size: 3.5vw;
+    }
+    .elemtH{
+        height: 10vw;
+    }
+    .projectHeading {
+        width: 100%;
+        position: relative;
+        margin-left: 0vw;
+        padding-top: 5vw;
+        margin-bottom: 2vw;
+        padding-inline: 4vw;
+    }
+    .projectHeading::before {
+        position: absolute;
+        content: "02";
+        padding-top: .75vw;
+        font-family: "silkserif";
+        font-size: 5vw;
+        top: -30%;
+        left: 4%;
+    }
+
+    .page4 {
+        padding-block: 10vw;
+        padding-inline: 4vw;
+
+    }
+    .page4container {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        padding-top: 0;
+    }
+    .page4container::before {
+        padding-top: 0vw;
+        font-size: 5vw;
+        top: -2.75%;
+        left: 0;
+    }
+    .aboutParagraph {
+        width: 100%;
+    }
+    .aboutParagraph p{
+        font-size: 5vw;
+    }
+    .aboutImgAndPara {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .aboutImgAndPara img {
+        width: 100%;
+        height: 100%;
+        margin-top: 7.5vw;
+    }
+    .aboutImgAndPara p {
+        width: 100%;
+        font-size: 3.5vw;
+        margin-top: 4vw;
+    }
+    .aboutBottom {
+        width: 100%;
+        margin-top: 10vw;
+        margin-left: 0%;
+        padding-block: 1vw;
+        margin-bottom: 12.5vw;
+    }
+    .page4container .underline {
+        margin-bottom: 0vw;
+    }
+    .aboutBottom .elem{
+        padding-block: 3.5vw;
+    }
+    .aboutBottom .elem h2 {
+        font-size: 3.5vw;
+        font-weight: 300;
+    }
+    .aboutBottom .elem h4 {
+        font-size: 2vw;
+        font-weight: 100;
+    }
+    .page4container>.underline::after {
+        font-size: 5vw;
+        padding-top: 2.5vw;
+    }
+
+
+    .page5 {
+        padding-block: 20vw;
+    }
+    .marque div {
+        font-size: 8vw;
+        line-height: 10vw;
+    }
+
+    .pageFooter{
+        padding-block: 15vw;
+        padding-inline: 4vw;
+    }
+    .pageFootercontainer {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .pageFootercontainer::before {
+        font-size: 5vw;
+        padding-top: 0vw;
+        top: -7.5%;
+        left: 0;
+    }
+    .pageFootercenter .content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        padding-block: 10vw;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .content h1 {
+        font-size: 4vw;
+        font-weight: 100;
+        opacity: .75;
+        margin-bottom: 4vw;
+    }
+    .content2 h1,
+    .content3 h1 {
+        margin-top: 12.5vw;
+    }
+    .content h2 {
+        font-size: 5vw;
+    }
+    .pageFootercenter> h3 {
+        font-family: "plain1";
+        font-weight: 100;
+        font-size: 3.25vw;
+        margin-top: 3vw;
+    }
+    .content3 h2 a {
+        text-decoration: underline;
+        color: #f9f9ed;
+    }
+    .pageFootercenter> h3>span {
+        font-size: 3.25vw;
+        color: salmon;
+    }
+    .Selems .SelemprojectCircle{
+        margin-top: 0vw;
+        margin-bottom: 10vw;
+    }
+}
+
+@media (max-width:600px) {
+    .page1Container {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 0vw;
+    }
+    .page1{
+        height: 70vh;
+    }
+    #cursor{
+        display: none;
+    }
+    .page1BottomContent::after {
+        font-size: 3vw;
+        bottom: -100%;
+        left: 1%;
+        color: #ffa63d;
+    }
+}

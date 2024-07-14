@@ -1,0 +1,83 @@
+.pageFooter{
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background: #151515;
+    color: #f9f9ed;
+    overflow: hidden;
+    padding-block: 4vw;
+    font-family: "plain";
+}
+.pageFootercontainer{
+    width: 70%;
+    height: 100%;
+    margin-left: 27%;
+    position: relative;
+}
+.pageFootercontainer::before{
+    position: absolute;
+    content: "04";
+    padding-top: 1vw;
+    font-family: "silkserif";
+    font-size: 3vw;
+    top: -.75%;
+    left: -8%;
+}
+.pageFootercontainer> .underline{
+    margin-top: 2vw;
+}
+.helems{
+    position: relative;
+    font-family: "plain1";
+}
+.helems .headingelem1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.helems .headingelem1 h1{
+    font-size: 7.5vw;
+    text-transform: uppercase;
+}
+.helems .headingelem1 i{
+    font-size: 7.5vw;
+    -webkit-text-stroke: 1px #f9f9ed;
+    color: transparent;
+}
+.pageFootercenter .content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-block: 4vw;
+}
+.content h1{
+    font-size: 1.25vw;
+    font-weight: 400;
+    opacity: .75;
+    margin-bottom: 2.5vw;
+}
+.content h2{
+    font-size: 1.75vw;
+    font-weight: 100;
+}
+.content3 h2 a{
+    text-decoration: none;
+    color: #f9f9ed;
+}
+.pageFootercenter> h3{
+    font-family: "plain1";
+    font-weight: 100;
+    font-size: 1.25vvw;
+    margin-top: 2vw;
+}

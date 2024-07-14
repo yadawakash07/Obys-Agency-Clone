@@ -1,0 +1,133 @@
+
+.page4{
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: hidden;
+    font-family: "plain";
+    padding-block: 5vw;
+}
+.page4container{
+    width: 70%;
+    height: 100%;
+    margin-left: 27%;
+    position: relative;
+    padding-top: 2.5vw;
+}
+.page4container::before{
+    position: absolute;
+    content: "03";
+    padding-top: 2.5vw;
+    font-family: "silkserif";
+    font-size: 3vw;
+    top: .75%;
+    left: -8%;
+}
+.aboutHeading h1{
+    font-size: 7.5vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.underline{
+    width: 100%;
+    height: 1.5px;
+    background-color: #f9f9ed;
+    /* margin-top: .75vw; */
+    border-radius: 10px;
+}
+.aboutHeading{
+    padding-bottom: 4vw;
+}
+.aboutParagraph{
+    width:57.5%;
+}
+.aboutParagraph p{
+    font-size: 2.25vw;
+    color: #f9f9ed85;
+}
+.aboutImgAndPara{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2.5vw;
+    margin-top: 5vw;
+}
+.aboutImgAndPara img{
+    width: 47.5%;
+    height: 80%;
+}
+.aboutImgAndPara p{
+    width: 60%;
+    font-size: 1vw;
+    color: #f9f9ed85;
+}
+.aboutImgAndPara p:nth-child(1){
+    margin-bottom: 2vw;
+}
+
+.aboutBottom{
+    position: relative;
+    width: 70%;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    background: #3245ec;
+    color: white;
+    margin-top: -17.5%;
+    margin-left: 30%;
+}
+.aboutBottom .elems{
+    width: 100%;
+    height: 100%;
+    padding: 6vw 4vw;
+    margin-bottom: 5vw;
+    position: relative;
+}
+.aboutBottom .elem{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1.25vw;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.aboutBottom .elem:hover{
+    background: #f9f9ed;
+    color: #030303;
+}
+.aboutBottom .elem h2{
+    font-size: 1.75vw;
+    font-weight: 400;
+}
+.aboutBottom .elem h4{
+    font-size: .9vw;
+    font-weight: 400;
+}
+.aboutBottom .elems .underline{
+    width: 0%;
+    height: 1.5px;
+    background-color: #f9f9ed;
+    margin-top: 0;
+}
+.page4container .underline{
+    width: 0;
+}
+.page4container>.underline::after{
+    content: "We work with";
+    position: absolute;
+    top: 10;
+    left: 0;
+    font-family: "plain";
+    font-size: 1.4vw;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding-top: 1.5vw;
+}

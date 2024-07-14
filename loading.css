@@ -1,0 +1,107 @@
+
+
+#loader{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #030303;
+    color: whitesmoke;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-inline: 7.5vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-transition: all .75s;
+    -o-transition: all .75s;
+    transition: all .75s;
+    z-index: 999;
+}
+#loader .top,.top .top1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+#loader .top,#loader .center,#loader .bottom{
+    gap:2.5vw;
+    overflow: hidden;
+}
+.top .top1 h5{
+    width: 6vw;
+    text-align: end;
+}
+.top .top1 h5,.top .top1 h6{
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: "silkserif";
+}
+#loader h1,#loader h2{
+    font-size: 9vw;
+    line-height: 9vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#loader .bottom{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+#loader .bottom .bottom2 h2{
+    -webkit-animation: anime 1s infinite linear alternate;
+            animation: anime 1s infinite linear alternate;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+}
+@-webkit-keyframes anime{
+    0%{
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    50%{
+        -webkit-text-stroke: 1px white;
+        color: transparent;
+        font-family: monospace;
+        opacity: 1;
+        rotate: 2.5deg;
+    }
+    100%{
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        rotate: -2.5deg;
+        opacity: 1;
+    }
+}
+@keyframes anime{
+    0%{
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    50%{
+        -webkit-text-stroke: 1px white;
+        color: transparent;
+        font-family: monospace;
+        opacity: 1;
+        rotate: 2.5deg;
+    }
+    100%{
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        rotate: -2.5deg;
+        opacity: 1;
+    }
+}
+.lastDis{
+    margin-top: 3vw;
+    margin-left: 10vw;
+    font-family: monospace;
+}
+.lastDis h4{
+    font-size: 1.25vw;
+} 

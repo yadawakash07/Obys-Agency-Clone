@@ -1,0 +1,175 @@
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "plain";
+}
+.page1Container{
+    width: 70%;
+    height: 100%;
+    margin-left: 27%;
+}
+.page1ContentTop{
+    width: 100%;
+    height: 10vw;
+    padding-top: 4.25vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.topContent1 h5{
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.25vw;
+}
+.topContent2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 3.5vw;
+    position: relative;
+    z-index: 99;
+}
+.topContent2 h4{
+    font-size: 1vw;
+    font-weight: 100;
+    line-height: 1.25vw;
+}
+.flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.page1ContentBottom{
+    width: 100%;
+    height: calc(100% - 10vw);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: "plain1";
+}
+.page1BottomContent{
+    position: relative;
+}
+.page1BottomContent::before{
+    position: absolute;
+    content: "01";
+    font-family: "silkserif";
+    font-size: 3vw;
+    top: 0%;
+    left: -10%;
+}
+.page1BottomContent::after{
+    position: absolute;
+    content: "scroll";
+    font-family: "plain";
+    font-size: 1.25vw;
+    bottom: 12.5%;
+    left:-43%;
+    opacity: .75;
+    -webkit-animation: slideAnimation 2.75s infinite linear;
+            animation: slideAnimation 2.75s infinite linear;
+}
+@-webkit-keyframes slideAnimation {
+    0%{
+        -webkit-transform: translateY(-120%);
+                transform: translateY(-120%);
+        opacity: 0;
+    }
+    35%{
+        -webkit-transform: translateY(0%);
+                transform: translateY(0%);
+        opacity: .75;
+    }
+    75%{
+        -webkit-transform: translateY(20%);
+                transform: translateY(20%);
+        opacity: .75;
+    }
+    100%{
+        -webkit-transform: translateY(120%);
+                transform: translateY(120%);
+        opacity: 0;
+    }
+}
+@keyframes slideAnimation {
+    0%{
+        -webkit-transform: translateY(-120%);
+                transform: translateY(-120%);
+        opacity: 0;
+    }
+    35%{
+        -webkit-transform: translateY(0%);
+                transform: translateY(0%);
+        opacity: .75;
+    }
+    75%{
+        -webkit-transform: translateY(20%);
+                transform: translateY(20%);
+        opacity: .75;
+    }
+    100%{
+        -webkit-transform: translateY(120%);
+                transform: translateY(120%);
+        opacity: 0;
+    }
+} 
+.heading{
+    overflow: hidden;
+}
+.page1ContentBottom .heading h1{
+    font-size: 7.5vw;
+    line-height: 7.5vw;
+    text-transform: uppercase;
+}
+.page1ContentBottom .heading #h1{
+    border-bottom: .5vw solid #f9f9ed;
+    -webkit-transition: all cubic-bezier(0.47, 0, 0.745, 0.715) .25s;
+    -o-transition: all cubic-bezier(0.47, 0, 0.745, 0.715) .25s;
+    transition: all cubic-bezier(0.47, 0, 0.745, 0.715) .25s;
+    position: relative;
+    z-index: 99;
+}
+.page1ContentBottom .heading #h1:hover{
+    border-bottom: .5vw solid transparent;
+    -webkit-text-stroke: 1px #f9f9ed;
+    font-weight: 400;
+    color: transparent;
+    position: relative;
+    z-index: 99;
+}
+#Flag{
+    width: 20vw;
+    height: 60vh;
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+    opacity: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+}
